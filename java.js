@@ -11,11 +11,11 @@ document.addEventListener('DOMContentLoaded', function() {
         const period = periodSelect.value;
         const classGroup = classGroupSelect.value;
 
-        if (year === "2024" && period === "tarde" && classGroup === "INF") {
+        if (year === "2024" && period === "manha" && classGroup === "INF") {
             const url = `https://www.youtube.com/${year}/${period}/${classGroup}`;
             window.location.href = url;
-        } else if (year === "2024" && period === "manha" && classGroup === "INF") {
-            const url = `https://www.google.com/${year}/${period}/${classGroup}`;
+        } else if (year === "2024" && period === "tarde" && classGroup === "INF") {
+            const url = `pagina1.html`;
             window.location.href = url;
         } else {
             alert('Por favor, selecione todas as opções corretamente.');
